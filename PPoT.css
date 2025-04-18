@@ -3,11 +3,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
-    font-size: ;
 }
 
 .titulo {
-    margin: 0;
+    margin: 0px;
     padding: 30px;
     background-color: rgb(195, 90, 9);
     color: white;
