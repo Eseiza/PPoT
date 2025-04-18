@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: ;
+}
+
+.titulo {
+    margin: 0;
+    padding: 30px;
+    background-color: rgb(195, 90, 9);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: rgb(235, 111, 16);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
