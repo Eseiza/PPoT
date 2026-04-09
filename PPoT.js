@@ -12,17 +12,17 @@ let numero2 = 0
 input.addEventListener("input", () => {
     const valor = input.value.toLowerCase()
 
-    if (valor === "pi") {
+    if (valor === "piedra") {
         test1.innerHTML = "Piedra"
-        img1.src = "img/piedracut.png"
+        img1.src = "https://res.cloudinary.com/dj2c9vvmz/image/upload/v1775774875/image_2026-04-09_194755121_sepkw8.png"
         numero1 = 1
-    } else if (valor === "pa") {
+    } else if (valor === "papel") {
         test1.innerHTML = "Papel"
-        img1.src = "img/papelcut.png"
+        img1.src = "https://res.cloudinary.com/dj2c9vvmz/image/upload/v1775774838/image_2026-04-09_194717023_sspilv.png"
         numero1 = 2
-    } else if (valor === "ti") {
+    } else if (valor === "tijera") {
         test1.innerHTML = "Tijera"
-        img1.src = "img/tijeracut.png"
+        img1.src = "https://res.cloudinary.com/dj2c9vvmz/image/upload/v1775774918/image_2026-04-09_194836186_ah3iqq.png"
         numero1 = 3
     } else {
         test1.innerHTML = "Entrada inválida"
@@ -44,13 +44,13 @@ boton.addEventListener("click", () => {
 
         if (numero2 === 1) {
             test2.innerHTML = "Piedra"
-            img2.src = "img/piedracut.png"
+            img2.src = "https://res.cloudinary.com/dj2c9vvmz/image/upload/v1775774875/image_2026-04-09_194755121_sepkw8.png"
         } else if (numero2 === 2) {
             test2.innerHTML = "Papel"
-            img2.src= "img/papelcut.png"
+            img2.src= "https://res.cloudinary.com/dj2c9vvmz/image/upload/v1775774838/image_2026-04-09_194717023_sspilv.png"
         } else if (numero2 === 3) {
             test2.innerHTML = "Tijera"
-            img2.src = "img/tijeracut.png"
+            img2.src = "https://res.cloudinary.com/dj2c9vvmz/image/upload/v1775774918/image_2026-04-09_194836186_ah3iqq.png"
         }
 
         if (numero1 === numero2) {
@@ -63,7 +63,7 @@ boton.addEventListener("click", () => {
             Swal.fire({
             title: '¡Ganaste!',
             text: 'Sos un kapo 💪',
-            imageUrl: 'img/trofeocut.png',
+            imageUrl: 'https://res.cloudinary.com/dj2c9vvmz/image/upload/v1775774940/image_2026-04-09_194900014_wc6oxz.png',
             imageWidth: 150,
             imageAlt: 'Ganador'
         
